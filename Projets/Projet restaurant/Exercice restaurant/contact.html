@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <title>
+        La Bonne Panse, nous contacter
+    </title>
+    <meta charset="utf-8">
+
+    <head>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="menu.html" title="Menu">Menu</a></li>
+                <li><a href="contact.html" title="Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Nous contacter</h1>
+    </head>
+
+    <body>
+        <form action="contact.html">
+            <fieldset>
+                <legend>Nous Contacter</legend>
+                <br>
+                <div>
+                    <label>Sexe</label>
+                    <input type="radio" name="sexe" id="masculin", checked>
+                    <label>Mr</label>
+                    <input type="radio" name="sexe" id="féminin">
+                    <label>Mme</label>
+                    <input type="radio" name="sexe" id="autre">
+                    <label>Autre</label>
+                </div>
+                <br>
+                <div>
+                    <label for="name_input">Votre Nom</label>
+                    <input type="text" name="nom" id="name_input" placeholder="Votre nom" required>
+                    
+                </div>
+                <br>
+                <div>
+                    <label for="email_input">Votre e-mail</label>
+                    <input type="text" name="mail" id="email_input" placeholder="contact@demo.be" type="email" inputmode="email" required>
+                    
+                </div>
+                <br>
+                <div>
+                    <label for="password_input">Mot de passe</label>
+                    <input type="password" name="mdp" id="password_input" required>
+                    
+                </div>
+                <br>
+                <div>
+                    <label for="phone_input">N° de téléphone</label>
+                    <input type="tel" name="tel" id="phone_input" required inputmode="numeric" placeholder="0474123456">
+                    
+                </div>
+                <br>
+                <div>
+                    <label for="nbr_input">Nombre de personnes</label>
+                    <input type="number" name="nombre de clients" id="nbr_input" value="1" inputmode="numeric" required>                    
+                </div>
+                <br>
+                <div>
+                    <label for="date_input">Date de votre venue</label>
+                    <input type="date" name="date" id="date_input" required>                    
+                </div>
+                <br>
+                <div>
+                    <label for="vegan_input">Il y a des allergies alimentaires</label>
+                    <input type="checkbox" name="vegan" id="vegan_input">
+                    <select name="allergies" id="allergies" multiple>
+                        <optgroup label="Régime">
+                            <option>Lactose</option>
+                            <option>Proteines</option>
+                            <option>Vegan</option>
+                            <option>Végé</option>
+                        </optgroup>
+                        <optgroup label="Ingrédients">
+                            <option>Fruits de mer</option>
+                            <option>Tomates</option>
+                        </optgroup>
+                        
+                        
+                    </select>                                  
+                </div>
+                <br>
+                <div>
+                    <label for="file_input">Joindre un fichier</label>
+                    <input type="file" name= "piècejointe" value="Parcourir" id="file_input">                                  
+                </div>
+                <br>
+                <div>
+                    <label for="message">Votre message</label>
+                    <textarea name="message" id="message" cols="30" rows="10">Votre message</textarea>                                 
+                </div>
+                <br>
+                <div>
+                    <label><input type="checkbox" name="cgv" id="vegan_input" checked>J'accepte les conditions générales de vente</label>
+                                        
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Réserver">
+                    <input type="reset" value="Annuler">
+                </div>
+            </fieldset>
+        </form> 
+    </body>
+
+          
+    
+
+
+</html>

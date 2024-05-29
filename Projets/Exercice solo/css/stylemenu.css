@@ -1,0 +1,54 @@
+/* Structure */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header {
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;     
+}
+
+.main {
+    background-color: bisque;
+    padding: 20px;
+}
+
+.main p{
+    text-align: left;
+}
+
+footer {
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Menus navigation */
+
+.nav_header a {
+    padding: 50px;
+}
+
+a:is(:hover,:focus) {
+    color: bisque;
+    background-attachment: fixed;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.nav_header {
+    padding-bottom: 20px;
+    font-size: 20 px;
+    font-style: inherit
+}
+.nav_footer {
+    padding: 20px;
+    font-size: 20 px;
+    font-style: italic;     
+    text-align: center   
+}
+
+/* Content */
