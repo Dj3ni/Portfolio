@@ -11,24 +11,20 @@ footer{
 }
 
 .nav_footer{
-    color: bisque;
-    background-color: brown;
+    color:#efbc9bff;
+    background-color: #0a122aff;
     padding:1em;
     display: flex;
-    
-    /* justify-content:center;
-    flex-direction: row; */
     margin-top: 2em;
 }
 
 .footer{    
     display: flex;
-    background-color: brown;
+    background-color: #0a122aff;
     padding:0;
     justify-content: center;
-    color:bisque;
-    border-top: 2px solid bisque;
-    
+    color:#efbc9bff;
+    border-top: 1px solid #efbc9bff;    
 }
 
 
