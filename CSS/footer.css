@@ -1,0 +1,35 @@
+.social img{
+    max-height: 80px;
+    max-width: 80px;
+    position: relative;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;    
+}
+
+.nav_footer{
+    color: bisque;
+    background-color: brown;
+    padding:1em;
+    display: flex;
+    
+    /* justify-content:center;
+    flex-direction: row; */
+    margin-top: 2em;
+}
+
+.footer{    
+    display: flex;
+    background-color: brown;
+    padding:0;
+    justify-content: center;
+    color:bisque;
+    border-top: 2px solid bisque;
+    
+}
+
+
+    

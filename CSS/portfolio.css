@@ -1,13 +1,18 @@
+
 /* Barre de navigation */
 
-.nav_header{
+header{
     padding:1em;
     text-align: center;
-    border-bottom-style: dashed;  
+    background-color: brown;
+    display: flex;
+    justify-content: center;
 }
 
 .nav_header a{
     padding: 1em;
+    display: inline-flex;
+        
 }
 
 ul{
@@ -15,21 +20,46 @@ ul{
     
 }
 
-a:is(hover,focus){
+a:hover{
+    transition-duration: 5s;
+    color: yellow;
+    text-decoration: none;
+    background-attachment: fixed;
+    padding-left: 1em;     
+}
+
+a:link,:visited{
+    color:bisque;
+    text-decoration: none;
+}
+
+/* a:focus{
     transition-duration: 5s;
     color: brown;
     text-decoration: none;
     background-attachment: fixed;
     padding-left: 1em;     
+} */
+
+#avatar {
+    max-width: 128px;
+    max-height: 128px;
+    display:inline-flex;
+    
 }
 
 
 /* Body */
 
 body{
-    font-family:'dosis';
+    /* font-family:'dosis'; */
     background-color: bisque;
-    
+    margin:0;
+    padding: 0;    
+}
+
+main{
+    margin: 15px;
 }
 
 h1{
@@ -43,10 +73,11 @@ h1{
 
 form{
    /* Contour formulaire */
-    margin:0 auto;
+    margin-left: 15px;
     width: 400px;
     border-style: double;
     border-radius: 1em;
+    border-color: brown;
     padding: 1em;
 }
 
@@ -64,7 +95,7 @@ label{
 }
 
 textarea{
-    font-family: dosis;
+    /* font-family: dosis; */
     width: 200px;
     height: 5em;
     resize:vertical
@@ -74,24 +105,3 @@ textarea{
     padding-left: 170px;
 
 }
-
-/* Footer */
-
-.footer{    
-    background-color: brown;
-    padding:3rem;
-    text-align: center;
-    color:bisque
-    
-}
-
-.nav_footer{
-    color: bisque;
-    background-color: brown;
-    padding:1em;
-    display: flex;
-    justify-content:space-around;
-    flex-direction: row-reverse;
-    margin-top: 2em;
-}
-    
