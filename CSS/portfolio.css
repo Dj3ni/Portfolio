@@ -3,24 +3,27 @@
 
 header{
     padding:1em;
-    
-    background-color:#0a122aff;
+/*     
+    background-color:#0a122aff; */
     display: flex;
     justify-content:space-around;
     text-align: center;
+    box-shadow:10px 10px 8px rgb(0, 0, 0, 0.3);
 }
 
 header h1{
     display: inline-flex;
     margin-right: 15px;
     color: #8e8dbeff;
+    
 }
 
 .nav_header a{
     padding: 1em;
     display: inline-flex;
-        
+    box-shadow:10px 10px 8px rgb(0, 0, 0, 0.2);        
 }
+
 
 ul{
     list-style: none;
@@ -34,6 +37,7 @@ a:hover{
     background-attachment: fixed;
     padding-left: 1em;     
 }
+
 
 a:link,:visited{
     color: #8e8dbeff;
@@ -80,6 +84,9 @@ h1{
     text-align: center;
     border-bottom: 1px;
 }
+aside{
+    border-right-color: 1px solid #7b0828ff;
+}
 
 /* Style du formulaire */
 
@@ -91,6 +98,7 @@ form{
     border-radius: 1em;
     border-color: #7b0828ff;
     padding: 1em;
+    box-shadow: 10px 10px 8px rgb(0, 0, 0, 0.3);
 }
 
 .form{
