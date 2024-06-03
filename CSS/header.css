@@ -1,19 +1,20 @@
 header{
     padding:1em;    
-    background-color:#0a122aff;
+    
     display: flex;
     justify-content:space-around;
     text-align: center;
     box-shadow:10px 10px 8px rgb(0, 0, 0, 0.3);
     position: sticky;
+    background-color:#0a122aff;
     top:0px;
+    z-index: 1;
 }
 
 header h1{
     display: inline-flex;
     margin-right: 15px;
-    color: #8e8dbeff;
-    
+    color: #8e8dbeff;    
 }
 
 .nav_header a{
@@ -24,8 +25,7 @@ header h1{
 
 
 ul{
-    list-style: none;
-    
+    list-style: none;    
 }
 
 a:hover{
