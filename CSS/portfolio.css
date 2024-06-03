@@ -59,7 +59,7 @@ textarea{
 
 }
 
-/* Menus déroulants "about" */
+/* Menus déroulants "about"
 
 .deroulant:before{
     content:"▼ ";
@@ -67,7 +67,7 @@ textarea{
     /* display: block;
     position: absolute;
      */
-}
+/* }
 
 .sous-menu{
     display: none;
@@ -78,7 +78,7 @@ textarea{
 }
 .deroulant{
     /* overflow: hidden; */
-    display: flex;
+    /* display: flex;
     max-width: fit-content;
 }
 
@@ -104,7 +104,7 @@ nav ol,ul li{
         display: flex;
         position: relative;
     }
-}
+} */ 
 
 /* @keyframes apparitionSousMenu{
     0%{
