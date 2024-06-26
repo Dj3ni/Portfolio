@@ -2,13 +2,14 @@
 
 body{
     /* font-family:'dosis'; */
-    background-color: #efbc9bff;
     margin:0;
     padding: 0;    
 }
 
 main{
-    margin: 15px;
+    padding: 30px;
+    background-color: #E0E1DD;
+
 }
 
 h1{
@@ -17,9 +18,21 @@ h1{
     text-align: center;
     border-bottom: 1px;
 }
-aside{
-    border-right-color: 1px solid #7b0828ff;
+
+menu{
+    position: fixed;
+    height: 100%;
+    width: 200px;
+    border-color:2px solid #0D1B2A ;
+    background-color:#E0E1DD ;
 }
+
+header, main{
+    margin-left: 60px;
+}
+/* aside{
+    border-right-color: 1px solid #7b0828ff;
+} */
 
 /* Style du formulaire */
 
@@ -56,54 +69,4 @@ textarea{
 
 .button{
     padding-left: 170px;
-
 }
-
-
-/* Colors */
-/* 
-CSS HEX
---cool-gray: #8e8dbeff;
---oxford-blue: #0a122aff;
---claret: #7b0828ff;
---peach: #efbc9bff;
---prussian-blue: #253d5bff;
-
-/* CSS HSL */
-/* --cool-gray: hsla(241, 27%, 65%, 1);
---oxford-blue: hsla(225, 62%, 10%, 1);
---claret: hsla(343, 88%, 26%, 1);
---peach: hsla(24, 72%, 77%, 1);
---prussian-blue: hsla(213, 42%, 25%, 1); */
-
-/* SCSS HEX */
-/* $cool-gray: #8e8dbeff;
-$oxford-blue: #0a122aff;
-$claret: #7b0828ff;
-$peach: #efbc9bff;
-$prussian-blue: #253d5bff; */
-
-/* SCSS HSL */
-/* $cool-gray: hsla(241, 27%, 65%, 1);
-$oxford-blue: hsla(225, 62%, 10%, 1);
-$claret: hsla(343, 88%, 26%, 1);
-$peach: hsla(24, 72%, 77%, 1);
-$prussian-blue: hsla(213, 42%, 25%, 1); */
-
-/* SCSS RGB */
-/* $cool-gray: rgba(142, 141, 190, 1);
-$oxford-blue: rgba(10, 18, 42, 1);
-$claret: rgba(123, 8, 40, 1);
-$peach: rgba(239, 188, 155, 1);
-$prussian-blue: rgba(37, 61, 91, 1); */
-
-/* SCSS Gradient */
-/* $gradient-top: linear-gradient(0deg, #8e8dbeff, #0a122aff, #7b0828ff, #efbc9bff, #253d5bff);
-$gradient-right: linear-gradient(90deg, #8e8dbeff, #0a122aff, #7b0828ff, #efbc9bff, #253d5bff);
-$gradient-bottom: linear-gradient(180deg, #8e8dbeff, #0a122aff, #7b0828ff, #efbc9bff, #253d5bff);
-$gradient-left: linear-gradient(270deg, #8e8dbeff, #0a122aff, #7b0828ff, #efbc9bff, #253d5bff);
-$gradient-top-right: linear-gradient(45deg, #8e8dbeff, #0a122aff, #7b0828ff, #efbc9bff, #253d5bff);
-$gradient-bottom-right: linear-gradient(135deg, #8e8dbeff, #0a122aff, #7b0828ff, #efbc9bff, #253d5bff);
-$gradient-top-left: linear-gradient(225deg, #8e8dbeff, #0a122aff, #7b0828ff, #efbc9bff, #253d5bff);
-$gradient-bottom-left: linear-gradient(315deg, #8e8dbeff, #0a122aff, #7b0828ff, #efbc9bff, #253d5bff);
-$gradient-radial: radial-gradient(#8e8dbeff, #0a122aff, #7b0828ff, #efbc9bff, #253d5bff);  */
