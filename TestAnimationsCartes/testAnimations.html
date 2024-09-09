@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="animations.css">
+</head>
+<body>
+    <h1>Tests Animations</h1>
+    <h2>Image qui bouge</h2>
+    <div class = "picture-moov">
+        <img src = "./assets/images/searchInternship.png">
+    </div>
+
+    <h2>Partie d'image qui bouge</h2>
+
+    <div class="image-container">
+        <img class ="image" src = "./assets/images/searchInternship.png">
+        <img  class = "animated-part" src = "./assets/images/searchInternship.png">
+        
+    </div>
+    <div><h2>Eventail ouvrant</h2>
+    <div class="swatch">
+        
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div></div>
+
+    <br>
+    <br>
+    <br><br><br><br>
+    <br>
+    <div>
+        <h2>Eventail ouvrant scroll</h2>
+        <div class="spacer"></div>
+        <div class="animated-element">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="spacer">
+    </div>
+</div>
+
+    <script>
+        // Fonction pour vérifier si l'élément est visible dans la fenêtre
+        function isElementInViewport(el) {
+            const rect = el.getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+
+        // Fonction pour déclencher l'animation au scroll
+        function onScroll() {
+            const element = document.querySelector('.animated-element');
+            if (isElementInViewport(element)) {
+                element.classList.add('swatch'); // Ajoute la classe qui lance l'animation
+                window.removeEventListener('scroll', onScroll); // Désactive l'écouteur une fois l'animation déclenchée
+            }
+        }
+
+        // Ajoute un écouteur d'événement pour le scroll
+        window.addEventListener('scroll', onScroll);
+
+    </script>
+
+</body>
+</html>
