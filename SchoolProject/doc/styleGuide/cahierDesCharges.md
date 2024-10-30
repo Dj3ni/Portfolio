@@ -4,34 +4,34 @@ Portfolio réalisé dans le cadre des cours d'architecture et ergonomie d'un sit
 
 ## Analyse / Audit
 
-1. Objectif
+### Objectif
 
     Présenter mon profil / Cv sous forme de site web afin d'attirer l'attention de futurs employeurs sur mon profil et mes compétences Web et gestion de projets.
 
-2. Public visé
+### Public visé
 
     Futurs employeurs et /ou lieux de stage
 
-3. Slogan
+### Slogan
 
     Jenny Fernadez Garcia - Web Developer Junior
 
-4. Perspectives
+### Perspectives
 
     Carte de visite dans ma recherche "passive" d'emploi
 
-5. Interlocuteurs
+### Interlocuteurs
 
     - Nicole Lenoir: responsable du suivi des projets
     - Jury: responsable de la validation du projet
 
-6. Langues
+### Langues
 
     J'ai choisi de le rédiger en **Français** et en **Anglais**. Il y aura donc une landing Page où il sera possible de choisir la langue du site. Il y aura également une icone dans la barre de navigation permettant de changer de langue sur n'importe quelle page. 
 
-7. Inspirations
+### Inspirations
 
-7. 1. Hanane
+1. Hanane\
 Lien: http://www.if3projets.net/wad23/hanane/
 
     • J’aime la possibilité de filtrer les différents projets
@@ -40,7 +40,7 @@ Lien: http://www.if3projets.net/wad23/hanane/
     ![text](image.png)
     ![filters](image-1.png)
 
-7. 2. Senem
+2. Senem\
 Lien: http://www.if3projets.net/wad23/senem/apropros.html
 
     • J’aime le titre qui bouge
@@ -49,12 +49,12 @@ Lien: http://www.if3projets.net/wad23/senem/apropros.html
 
     ![senem](image-2.png)
 
-7. 3. Yusra
+3. Yusra\
 Lien: http://www.if3projets.net/wad23/yusra/#cont
     • J’aime l’avatar
     ![avatar](image-3.png)
 
-7. 4. Camille
+4. Camille\
 Lien: http://www.if3projets.net/wad22/camille/
     • J’aime l’aspect ligne du temps pour l’XP
     • J’aime l’aspect dessiné des illus
@@ -62,31 +62,31 @@ Lien: http://www.if3projets.net/wad22/camille/
     ![timeline](image-4.png)
     ![drawings](image-5.png)
 
-7. 5. Maya
+5. Maya\
         Lien: http://www.if3projets.net/wad22/maya/
         • J’aime l’animation d’accueil
         ![accueil](image-6.png)
 
-7. 6. Menen
+6. Menen\
 Lien: http://www.if3projets.net/wad22/menen/
     • J’aime cette couleur de fond : #f4ebd0
 
-7. 7. Sara
+7. Sara\
 Lien: http://www.if3projets.net/wad22/sara/
     • J’aime la typo (font-anim), me donne envie de trouver des typos de jeux de société bien connus / disney.
 ![typo](image-7.png)
 ![typo2](image-8.png)
 
-7. 8. Thao
+8. Thao\
 Lien: http://www.if3projets.net/wad20/thao/
     • J’aime la présentation en hexagones (me fait penser à des tuile de jeu)
     ![tuiles](image-9.png)
 
-7. 9. Kelly
+9. Kelly\
 Lien: http://www.if3projets.net/wad20/kelly
     • J’aime le déplacement et la transition entre les pages (diagonale)
 
-7.10. Libellud
+10. Libellud\
 Lien: https://www.libellud.com/univers-dixit/ (mon site préféré)
     • J’adore l’univers et les illus
     • Je souhaite reprendre l’idée des cartes pour les différentes rubriques
@@ -96,24 +96,48 @@ Lien: https://www.libellud.com/univers-dixit/ (mon site préféré)
     • J’aime le mélange entre le contenu fixe et certains éléments animés
         ![alt text](image-12.png)
 
+11. Animations\
+
+- Titres
+https://graphiste.com/blog/30-animations-de-texte-pour-surprendre-vos-visiteurs/
+
+- Images
+https://blog.hubspot.fr/website/animation-css
+https://web-eau.net/blog/15-animations-css-vraiment-bluffantes
+https://graphiste.com/blog/animations-css/
+
+- Au scroll
+https://michalsnik.github.io/aos/
+https://www.youtube.com/watch?v=wKkFh6O9A0M
+
+- Transition pages
+
+Ici j'aime l'effet radial clip
+https://www.sliderrevolution.com/resources/css-page-transitions/
+
+- Création avatars
+https://notion-avatar.vercel.app/
+avataaars.com
+https://readyplayer.me/fr/hub
+
 
 ## Conception du site
 
 ### Elements à mettre en place
 
-1. Architecture
+1. Architecture\
     Il s'agit d'un site multipages qui sera dans les 2 langues (FR et EN). Il y aura 10 pages/ langue. 
-2. Menu
+2. Menu\
 Il y aura un menu de **navigation vertical** (centre gauche) afin de laisser un maximum de place au contenu de la page. En haut de ce menu il y aura un menu burger rétractable qui permet d'afficher les différentes rubriques du site à l'horizontal (haut) afin de faciliter la navigation. 
 
-3. Couleurs
+3. Couleurs\
 Voici les couleurs que j'ai choisi. Je jouerai également avec des effets de transparence pour certains éléments (cartes, menus, landingpage)
 ![colors](image-16.png)
 
 Le fond sera bleu, le menu gris et les polices seront blanches ou noires en fonction du meilleur contraste. Certains éléments du site auront une touche de crème, mais très peu car il y aura déjà pas mal d'illustrations.
 Je vais voir avec plusieurs tests et les illus si un fond blanc ne serait pas plus approprié, ne gardant le fonc bleu que pour certaines pages, plus "calmes".   
 
-4. Police
+4. Police\
 Je vais utiliser une police d'ensemble pour les parties "pro" du site et les menus. Je vais prendre des polices différentes en fonction des rubriques choisies, pour accentuer le fait qu'entrer dans une rubrique, c'est entrer dans un univers différent des autres. A voir lors de l'implémentation si ça ne donne pas un aspect trop chargé. La police Poppins est choisie par défaut. 
 
  - landing page: Dancing Script (donne l'impression qu'on parle)
@@ -125,15 +149,14 @@ Je vais utiliser une police d'ensemble pour les parties "pro" du site et les men
  - Web dev et portfolio: Share Tech Mono - titres et texte
  - Contact: Roboto Condensed - titres et texte
 
-5. Effets
+5. Effets\
 Etant donné qu'il y a déjà pas mal d'animations, les effets seront limités
  - hover des cartes de l'accueil
  - hover des rubriques du menu
  - animation au scroll et apparition pour les éléments du portfolio
  - au click d'une compétence: filtrage des exemples du portfolio. J'hésite à ajouter un petit texte pour expliquer mon confort, ce que j'aime avec cette technologie. 
 
-6. Animations
-
+6. Animations\
 Afin de casser l'aspect statique du site, et refléter mon caractère dynamique et ludique, il y aura pas mal d'animations sur le site
     - Landing page: quand on clique sur la partie en transparence, on passe dans l'autre langue
     - Menu burger: pour faire apparaître / disparaitre le menu des rubriques horizontal
@@ -152,7 +175,7 @@ Afin de casser l'aspect statique du site, et refléter mon caractère dynamique 
     - Header avec rubriques, rétractable en menu burger (affichage que icone home et burger, au-dessus du menu latéral d'icônes).
     - Menu latéral transparent à gauche avec toutes les icones ( github, contact, changement de langue, Cv...)
 
-3. Rubriques
+3. Rubriques\
     Lorsqu'on choisit une rubrique: La carte prend toute la page et nous amène vers la page de contenu correspondant
     - **About me** : brève description de moi et mon parcours, plus mini jeux pour trouver les différents clins d'oeil aux jeux de société dans le site
     - **Contact** : formulaire de contact avec info pour recherche de stage
@@ -161,7 +184,7 @@ Afin de casser l'aspect statique du site, et refléter mon caractère dynamique 
     - **Compétences en Web Dev**: les compétences web sont mises dans des tuiles en forme d'écailles de serpent (snake - akropolis). lorsqu'on clique dessus on arrive sur la liste filtrée des projets
     - **Portfolio**: liste filtrable en fonction technologies avec les différents projets réalisés
 
-4. Arborescence du site
+4. Arborescence du site\
 
 Landing page -> Accueil -> Rubriques
     - About
@@ -179,7 +202,13 @@ Logiciel utilisé: Miro
 
 ### Wireframe
 Logiciel utilisé: Excalidraw
-![Wireframe](https://excalidraw.com/#json=KvvtxX9g-LsFJUEnot8Yg,EgfZPvOrs4GaL6xIIXiP0Q)
+Version mobile:
+![mobileWireframe](image-17.png)
+
+Version pc: 
+
+<!-- ![Wireframe](https://excalidraw.com/#json=KvvtxX9g-LsFJUEnot8Yg,EgfZPvOrs4GaL6xIIXiP0Q) -->
+
 ![Wireframe](../rough/roughWebsitePC.svg)
 
 ### Mock-up
