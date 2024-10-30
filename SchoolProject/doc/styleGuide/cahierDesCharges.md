@@ -6,28 +6,28 @@ Portfolio réalisé dans le cadre des cours d'architecture et ergonomie d'un sit
 
 ### Objectif
 
-    Présenter mon profil / Cv sous forme de site web afin d'attirer l'attention de futurs employeurs sur mon profil et mes compétences Web et gestion de projets.
+Présenter mon profil / Cv sous forme de site web afin d'attirer l'attention de futurs employeurs sur mon profil et mes compétences Web et gestion de projets.
 
 ### Public visé
 
-    Futurs employeurs et /ou lieux de stage
+Futurs employeurs et /ou lieux de stage
 
 ### Slogan
 
-    Jenny Fernadez Garcia - Web Developer Junior
+Jenny Fernandez Garcia - Web Developer Junior
 
 ### Perspectives
 
-    Carte de visite dans ma recherche "passive" d'emploi
+Carte de visite dans ma recherche "passive" d'emploi
 
 ### Interlocuteurs
 
-    - Nicole Lenoir: responsable du suivi des projets
-    - Jury: responsable de la validation du projet
+- Nicole Lenoir: responsable du suivi des projets
+- Jury: responsable de la validation du projet
 
 ### Langues
 
-    J'ai choisi de le rédiger en **Français** et en **Anglais**. Il y aura donc une landing Page où il sera possible de choisir la langue du site. Il y aura également une icone dans la barre de navigation permettant de changer de langue sur n'importe quelle page. 
+J'ai choisi de le rédiger en **Français** et en **Anglais**. Il y aura donc une landing Page où il sera possible de choisir la langue du site. Il y aura également une icone dans la barre de navigation permettant de changer de langue sur n'importe quelle page. 
 
 ### Inspirations
 
@@ -138,7 +138,7 @@ Le fond sera bleu, le menu gris et les polices seront blanches ou noires en fonc
 Je vais voir avec plusieurs tests et les illus si un fond blanc ne serait pas plus approprié, ne gardant le fonc bleu que pour certaines pages, plus "calmes".   
 
 4. Police\
-Je vais utiliser une police d'ensemble pour les parties "pro" du site et les menus. Je vais prendre des polices différentes en fonction des rubriques choisies, pour accentuer le fait qu'entrer dans une rubrique, c'est entrer dans un univers différent des autres. A voir lors de l'implémentation si ça ne donne pas un aspect trop chargé. La police Poppins est choisie par défaut. 
+Je vais utiliser une police d'ensemble pour les parties "pro" du site et les menus. Je vais prendre des polices différentes en fonction des rubriques choisies, pour accentuer le fait qu'entrer dans une rubrique, c'est entrer dans un univers différent des autres. A voir lors de l'implémentation si ça ne donne pas un aspect trop chargé. La police Poppins est choisie par défaut.
 
  - landing page: Dancing Script (donne l'impression qu'on parle)
  - menus: Poppins : calme et lisible
@@ -148,6 +148,7 @@ Je vais utiliser une police d'ensemble pour les parties "pro" du site et les men
  - work: Chippewa Falls NF (aventuriers du rail) - titres, texte en Poppins
  - Web dev et portfolio: Share Tech Mono - titres et texte
  - Contact: Roboto Condensed - titres et texte
+   ![image](https://github.com/user-attachments/assets/4b0cecae-44ce-4f4f-b0fd-6d4bc9d213f0)
 
 5. Effets\
 Etant donné qu'il y a déjà pas mal d'animations, les effets seront limités
