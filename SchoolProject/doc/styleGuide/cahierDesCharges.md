@@ -91,12 +91,14 @@ Lien: https://www.libellud.com/univers-dixit/ (mon site préféré)
     • J’adore l’univers et les illus
     • Je souhaite reprendre l’idée des cartes pour les différentes rubriques
         ![cartes](image-10.png)
+    
     • J’aime l’effet de fondu entre les différentes sections
-        ![fondu](image-11.png)  
+        ![fondu](image-11.png)
+    
     • J’aime le mélange entre le contenu fixe et certains éléments animés
         ![alt text](image-12.png)
 
-11. Animations\
+12. Animations\
 
 - Titres
 https://graphiste.com/blog/30-animations-de-texte-pour-surprendre-vos-visiteurs/
@@ -152,10 +154,10 @@ Je vais utiliser une police d'ensemble pour les parties "pro" du site et les men
 
 5. Effets\
 Etant donné qu'il y a déjà pas mal d'animations, les effets seront limités
- - hover des cartes de l'accueil
- - hover des rubriques du menu
- - animation au scroll et apparition pour les éléments du portfolio
- - au click d'une compétence: filtrage des exemples du portfolio. J'hésite à ajouter un petit texte pour expliquer mon confort, ce que j'aime avec cette technologie. 
+     - hover des cartes de l'accueil
+     - hover des rubriques du menu
+     - animation au scroll et apparition pour les éléments du portfolio
+     - au click d'une compétence: filtrage des exemples du portfolio. J'hésite à ajouter un petit texte pour expliquer mon confort, ce que j'aime avec cette technologie. 
 
 6. Animations\
 Afin de casser l'aspect statique du site, et refléter mon caractère dynamique et ludique, il y aura pas mal d'animations sur le site
