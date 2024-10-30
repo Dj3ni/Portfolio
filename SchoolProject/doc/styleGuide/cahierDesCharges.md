@@ -31,7 +31,7 @@ Portfolio réalisé dans le cadre des cours d'architecture et ergonomie d'un sit
 
 7. Inspirations
 
-7.1. Hanane
+7. 1. Hanane
 Lien: http://www.if3projets.net/wad23/hanane/
 
     • J’aime la possibilité de filtrer les différents projets
@@ -40,7 +40,7 @@ Lien: http://www.if3projets.net/wad23/hanane/
     ![text](image.png)
     ![filters](image-1.png)
 
-7.2. Senem
+7. 2. Senem
 Lien: http://www.if3projets.net/wad23/senem/apropros.html
 
     • J’aime le titre qui bouge
@@ -49,12 +49,12 @@ Lien: http://www.if3projets.net/wad23/senem/apropros.html
 
     ![senem](image-2.png)
 
-7.3. Yusra
+7. 3. Yusra
 Lien: http://www.if3projets.net/wad23/yusra/#cont
     • J’aime l’avatar
     ![avatar](image-3.png)
 
-7.4. Camille
+7. 4. Camille
 Lien: http://www.if3projets.net/wad22/camille/
     • J’aime l’aspect ligne du temps pour l’XP
     • J’aime l’aspect dessiné des illus
@@ -62,27 +62,27 @@ Lien: http://www.if3projets.net/wad22/camille/
     ![timeline](image-4.png)
     ![drawings](image-5.png)
 
-7.5. Maya
+7. 5. Maya
 Lien: http://www.if3projets.net/wad22/maya/
     • J’aime l’animation d’accueil
     ![accueil](image-6.png)
 
-7.6. Menen
+7. 6. Menen
 Lien: http://www.if3projets.net/wad22/menen/
     • J’aime cette couleur de fond : #f4ebd0
 
-7.7. Sara
+7. 7. Sara
 Lien: http://www.if3projets.net/wad22/sara/
     • J’aime la typo (font-anim), me donne envie de trouver des typos de jeux de société bien connus / disney.
 ![typo](image-7.png)
 ![typo2](image-8.png)
 
-7.8. Thao
+7. 8. Thao
 Lien: http://www.if3projets.net/wad20/thao/
     • J’aime la présentation en hexagones (me fait penser à des tuile de jeu)
     ![tuiles](image-9.png)
 
-7.9. Kelly
+7. 9. Kelly
 Lien: http://www.if3projets.net/wad20/kelly
     • J’aime le déplacement et la transition entre les pages (diagonale)
 
@@ -103,19 +103,19 @@ Lien: https://www.libellud.com/univers-dixit/ (mon site préféré)
     - Header avec rubriques, rétractable en menu burger (affichage que icone home et burger, au-dessus du menu latéral d'icônes)
     - Menu latéral transparent à gauche avec toutes les icones 
 
-##Documents utiles
+## Documents utiles
 
-###Map du site
+### Map du site
 
 [Map](<../map/Business Plan Mind Map.pdf>)
 
-###Wireframe
+### Wireframe
 
 <!-- ![Wireframe](https://excalidraw.com/#json=KvvtxX9g-LsFJUEnot8Yg,EgfZPvOrs4GaL6xIIXiP0Q) -->
 ![Wireframe](../rough/roughWebsitePC.svg)
 
 
-###Mock-up
+### Mock-up
 <!-- Lien vers Figma -->
 
 
