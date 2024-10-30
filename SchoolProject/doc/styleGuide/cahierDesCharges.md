@@ -63,9 +63,9 @@ Lien: http://www.if3projets.net/wad22/camille/
     ![drawings](image-5.png)
 
 7. 5. Maya
-Lien: http://www.if3projets.net/wad22/maya/
-    • J’aime l’animation d’accueil
-    ![accueil](image-6.png)
+        Lien: http://www.if3projets.net/wad22/maya/
+        • J’aime l’animation d’accueil
+        ![accueil](image-6.png)
 
 7. 6. Menen
 Lien: http://www.if3projets.net/wad22/menen/
@@ -99,21 +99,30 @@ Lien: https://www.libellud.com/univers-dixit/ (mon site préféré)
 8. Fonctionnement du site et présentation du contenu
 
 8. 1. Landing page: choix entre Français et Anglais
-    - Page d'accueil : Photo, brève description du profil et les différentes rubriques du site présentées sous forme de cartes à tirer.
-    - Header avec rubriques, rétractable en menu burger (affichage que icone home et burger, au-dessus du menu latéral d'icônes)
-    - Menu latéral transparent à gauche avec toutes les icones 
+8. 2. Page d'accueil : Photo, brève description du profil et les différentes rubriques du site présentées sous forme de cartes à tirer, texte se s'affiche au hover des cartes.
+    - Header avec rubriques, rétractable en menu burger (affichage que icone home et burger, au-dessus du menu latéral d'icônes).
+    - Menu latéral transparent à gauche avec toutes les icones ( github, contact, changement de langue, Cv...)
+
+8. 3. Rubriques
+    Lorsqu'on choisit une rubrique: La carte prend toute la page et nous amène vers la page de contenu correspondant
+    - About me : brève description de moi et mon parcours, plus mini jeux pour trouver les différents clins d'oeil aux jeux de société dans le site
+    - Contact : formulaire de contact avec info pour recherche de stage
+    - Parcours scolaire : ligne du temps avec un perso qui escalade une montagne (can't stop) pour aller d'un point à l'autre
+    - Experience professionnelle: ligne du temps avec un perso qui escalade une montagne (can't stop) pour aller d'un point à l'autre. Lorsqu'on clique sur une section, un pop-up s'ouvre avec les infos complémentaires du poste
+    - Compétences en Web Dev: les compétences web sont mises dans des tuiles en forme d'écailles de serpent (snake - akropolis). lorsqu'on clique dessus on arrive sur la liste filtrée des projets
+    - Portfolio: liste filtrable en fonction technologies avec les différents projets réalisés
 
 ## Documents utiles
 
 ### Map du site
 
 [Map](<../map/Business Plan Mind Map.pdf>)
+![map](image-13.png)
 
 ### Wireframe
 
-<!-- ![Wireframe](https://excalidraw.com/#json=KvvtxX9g-LsFJUEnot8Yg,EgfZPvOrs4GaL6xIIXiP0Q) -->
+![Wireframe](https://excalidraw.com/#json=KvvtxX9g-LsFJUEnot8Yg,EgfZPvOrs4GaL6xIIXiP0Q)
 ![Wireframe](../rough/roughWebsitePC.svg)
-
 
 ### Mock-up
 <!-- Lien vers Figma -->
