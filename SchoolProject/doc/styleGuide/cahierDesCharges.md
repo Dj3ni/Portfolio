@@ -212,7 +212,9 @@ Version pc:
 
 <!-- ![Wireframe](https://excalidraw.com/#json=KvvtxX9g-LsFJUEnot8Yg,EgfZPvOrs4GaL6xIIXiP0Q) -->
 
-![Wireframe](../rough/roughWebsitePC.svg)
+<!-- ![Wireframe](../rough/roughWebsitePC.svg) -->
+<!-- ![wireframe corrigé](image-30.png) -->
+![wireframe](../rough/roughPortfolioPCCorrigé.svg)
 
 ### Mock-up
 Logiciel utilisé: Figma
