@@ -217,6 +217,21 @@ Version pc:
 ### Mock-up
 Logiciel utilisé: Figma
 <!-- Lien vers Figma -->
+https://www.figma.com/design/1y3qSGnyelCJRK5JuNG3q0/portfolio?node-id=0-1&node-type=canvas&t=uRJ1uv1OHoMZRLoZ-0
+
+![landingPage](image-18.png)
+![homePage](image-19.png)
+![aboutMe](image-20.png)
+![sofskills](image-21.png)
+![studies](image-22.png)
+![studies pop-up](image-23.png)
+![work](image-24.png)
+![work pop-up](image-25.png)
+![webdev](image-26.png)
+![portfolio](image-27.png)
+![portfolio filtre](image-28.png)
+![contact](image-29.png)
+
 
 
 
