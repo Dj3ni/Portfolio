@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Futura Std Light';
+    font-style: normal;
+    font-weight: lighter;
+    src: local('Futura Std Light'), url('FuturaStd-Light.woff') format('woff');
+    }
+
+nav {
+    background-color: #d9d9d9;
+}
+
+/* Burger nav */
+
+.burger-navbar {
+    border-radius: 0 0 20px 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: absolute; */
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.navlinks a, .quit a {
+    margin: 5px;
+    text-decoration: none;
+    color: #000;
+    font-family: Futura Std Light;
+}
+
+/* side nav */
+
+.navbar {
+    width: fit-content;
+    height: 90%;
+    border-radius: 0 20px 20px 0;
+    padding: 10px;
+    margin-right: 10%;
+}
