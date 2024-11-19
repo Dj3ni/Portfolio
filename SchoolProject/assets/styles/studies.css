@@ -3,6 +3,11 @@
     src: url("../fonts/DancingScript-VariableFont_wght.ttf");
 }
 
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/poppins/Poppins-Light.ttf");
+}
+
 body {
     margin: 0;
     box-sizing: border-box;
@@ -83,7 +88,7 @@ body {
     text-decoration: none;
     color: #000;
     font-size: smaller;
-    /* border:2px solid; */
+    font-family: Poppins;
 }
 
 /************** Dates *************/

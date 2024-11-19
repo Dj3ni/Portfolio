@@ -129,6 +129,8 @@ function displayModal(date, certificate = "", location, description){
     pCertificate.textContent = certificate;
     pCertificate.style.fontWeight = "bold";
     pCertificate.style.textAlign = "center";
+    pCertificate.style.fontFamily = "Poppins";
+
 
     pLocation.textContent = location;
     pLocation.style.fontFamily = "Poppins";
