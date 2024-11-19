@@ -7,7 +7,6 @@
     src: url("../fonts/poppins/Poppins-Light.ttf");
 }
 
-
 body {
     margin: 0;
     box-sizing: border-box;
@@ -32,7 +31,7 @@ body {
     width: 200px;
     height: auto;
     grid-area: intro;
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 .avatar img {
