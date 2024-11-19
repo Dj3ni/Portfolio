@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Futura Std Light';
-    font-style: normal;
-    font-weight: normal;
-    src: url('/SchoolProject/assets/fonts/futura/FuturaStd-Light.woff') format('woff');
+    font-family: 'Futura Std';
+    /* font-style: normal;*/
+    font-weight: 300; 
+    src: url('/SchoolProject/assets/fonts/futura/FuturaStdCondensed.otf') format('otf');
     }
 
 nav {
