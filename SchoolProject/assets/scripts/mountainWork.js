@@ -12,45 +12,6 @@ window.onclick = function(event) {
     }
 }
 
-window.addEventListener("scroll", function(){
-    dates.forEach(date =>{
-    if (date.classList.contains("top1")) {
-        moveHiker("top1", "end");
-        displayModal(
-            date.textContent,
-            "CESS - Grande Distinction",
-            "Institut des Dames de Marie - Woluwé-Saint-Lambert",
-            "Sciences sociales - Latin - Langues"
-        );
-    } else if (date.classList.contains("top2")) {
-        moveHiker("top2", "end");
-        displayModal(
-            date.textContent,
-            "Certificat Gestion de Base",
-            "Bruxelles Formation - Bruxelles",
-            "Gestion de Base"
-        );
-    } else if (date.classList.contains("bottom1")) {
-        moveHiker("bottom1", "center");
-        displayModal(
-            date.textContent,
-            "",
-            "Institut Libre Marie Haps - Ixelles",
-            "Logopédie"
-        );
-    } else if (date.classList.contains("bottom2")) {
-        moveHiker("bottom2", "center");
-        displayModal(
-            date.textContent,
-            "CEE...",
-            "Interface 3 - Bruxelles",
-            "Web Developer Application"
-        );
-    }
-    })
-})
-
-
 dates.forEach(date => {
     // console.log(date.textContent);
     date.style.cursor = "pointer";
@@ -59,17 +20,17 @@ dates.forEach(date => {
             moveHiker("top1", "end");
             displayModal(
                 date.textContent,
-                "CESS - Grande Distinction",
-                "Institut des Dames de Marie - Woluwé-Saint-Lambert", 
-                "Sciences sociales - Latin - Langues");
+                "Monitrice Sportive",
+                "Aventure Parc - Waver", 
+                "Clients Management - Bungee-jump Monitor - Entertainments Manager (Birthdays and TeamBuildings)");
         }
         else if(date.classList == "date top2"){
             moveHiker("top2", "end");
             displayModal(
                 date.textContent,
-                "Certificat Gestion de Base",
-                "Bruxelles Formation - Bruxelles",
-                "Gestion de Base"
+                "Assistant ShopManager (2015-2017) - ShopManager (2017-2023)",
+                "Hema - Louvain-La-Neuve - Waver",
+                "Employees Management - Stock Management - Client Counsel - Implementation commercial strategies - Turnover analysis"
                 );
 
         }
@@ -77,9 +38,9 @@ dates.forEach(date => {
             moveHiker("bottom1","center");
             displayModal(
                 date.textContent,
-                "",
-                "Institut Libre Marie Haps - Ixelles",
-                "Logopédie"
+                "Assistant ShopManager",
+                "Action - Perwez",
+                "Employees Management - Stock Management - Client Counsel - Implementation commercial strategies - Turnover analysis"
             )
         }
         else if(date.classList == "date bottom2"){
@@ -87,9 +48,9 @@ dates.forEach(date => {
             moveHiker("bottom2","center");
             displayModal(
                 date.textContent,
-                "CEE...",
-                "Interface 3 - Bruxelles", 
-                "Web Developer Application");
+                "Boardgames Freelance",
+                "Dés-mentiel - Belgium", 
+                "Boardgames events - Escapes Games - Teambuildings");
         }
         
     })
@@ -102,13 +63,13 @@ function moveHiker(gridArea, justifySelf, alignSelf = "center"){
     hiker.style.alignSelf = alignSelf;
 }
 
-function displayModal(date, certificate = "", location, description){
+function displayModal(date, job, location, description){
     // First we clear the div
     modalContent.innerHTML= "";
 
     // Then we create elements
     const pDate = document.createElement("p");
-    const pCertificate = document.createElement("p");
+    const pJob = document.createElement("p");
     const pLocation = document.createElement("p");
     const pDescription = document.createElement("p");
     
@@ -126,9 +87,11 @@ function displayModal(date, certificate = "", location, description){
     pDate.style.fontWeight = "bold";
     pDate.style.textAlign = "center";
 
-    pCertificate.textContent = certificate;
-    pCertificate.style.fontWeight = "bold";
-    pCertificate.style.textAlign = "center";
+    pJob.textContent = job;
+    pJob.style.fontWeight = "bold";
+    pJob.style.textAlign = "center";
+    pJob.style.fontFamily = "Poppins";
+
 
     pLocation.textContent = location;
     pLocation.style.fontFamily = "Poppins";
@@ -142,7 +105,7 @@ function displayModal(date, certificate = "", location, description){
     // We add it to the div
     modalContent.appendChild(close);
     modalContent.appendChild(pDate);
-    modalContent.appendChild(pCertificate);
+    modalContent.appendChild(pJob);
     modalContent.appendChild(pLocation);
     modalContent.appendChild(pDescription);
     // console.log(modal);
