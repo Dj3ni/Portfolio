@@ -40,3 +40,83 @@ body {
     align-items: center;
 }
 
+.snake {
+    grid-area: snake;
+    /* display: grid;
+    grid-template-columns: 20% 16% 16% 16% 16% 16%;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-template-areas:    "head head head head head head"
+                            "frontend front1 front2 front3"
+    ; */
+}
+
+svg{
+    /* width:20%; */
+    /* margin:0 auto; */
+    cursor: pointer;
+}
+.hex{
+    stroke-width:2;
+    stroke: #000;
+    fill-opacity:0.6;
+    transition:fill-opacity .8s;
+    padding: 5px;
+    }
+
+svg:hover .hex {
+fill-opacity:1;
+}
+
+/* test flex */
+.snake{
+    width: calc(68px * 5);
+    margin: 15px auto 15px auto;
+    
+}
+
+.head {
+    height:100px;
+    width: 100px;
+    margin-bottom: 0;
+
+}
+
+.head img {
+    width: 100%;
+    height: 100%;
+}
+
+.row{
+    display: flex;
+    /* height: 56px; */
+}
+.row:first-child{
+    justify-content: flex-end;
+}
+.row:nth-child(odd) .icon{
+    margin : 0 20px;
+}
+
+.row:nth-child(even){
+    flex-direction: row;
+    justify-content: center;
+}
+.row:nth-child(odd){
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.row:nth-child(5n){
+    flex-direction: row;
+}
+.row:last-child{
+    justify-content: flex-end;
+}
+
+.icon{
+    width: 64px;
+    height: 64px;
+    margin: 0;
+    block-size: border-box;
+    
+}
