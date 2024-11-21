@@ -12,10 +12,10 @@ body {
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 10% 90%;
-    grid-template-rows: 50px 55vh 35vh;
+    grid-template-rows: 50px 90%;
     grid-template-areas: "side navbar"
                         "side intro"
-                        "side game";
+                        ;
 }
 .navbar {
     grid-area: side;
@@ -26,8 +26,8 @@ body {
     grid-area: navbar;
 }
 
-.intro {
-    grid-area: intro;
+main {
+    /* grid-area: intro; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,14 +35,14 @@ body {
 
 .intro-content{
     display: flex;
-    justify-content: center;
+    height: fit-content;
+    justify-content: space-between;
     align-items: center;
 }
 
-.image-container {
-    width: 20%;
-    height: auto;
-}
+.image-container{
+    width: 30%;
+} 
 
 .image-container img {
     width: 100%;
@@ -52,7 +52,7 @@ body {
 /* Mini game */
 
 .mini-game {
-    grid-area: game;
+    /* grid-area: intro; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,7 +72,7 @@ body {
 .scratchpad {
     width: 200px;
     height: 200px;
-    border: solid 10px #FFFFFF;
+    /* border: solid 10px #FFFFFF; */
     /* margin:0 auto; */
 }
 
