@@ -21,11 +21,14 @@ body {
 .navbar {
     grid-area: side;
     justify-self: center;
+    margin-left: 0;
 }
 
 .burger-navbar {
     grid-area: navbar;
 }
+
+/*********** Intro  ***********/
 
 .avatar {
     width: 200px;
@@ -54,12 +57,59 @@ h1 {
     font-family: Dancing Script;
 }
 
+/*********** Cards  ***********/
+
 .cards {
     grid-area: cards;
-    border: 2px solid;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    
 
 }
 
 .card {
-    width: 24%;
+    width: 10%;
+    height: 100%;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+    padding: 1rem;
+    margin: 1rem;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    /* height: 200px; */
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+/* cards hover */
+.right:hover {
+    transform: scale(1.1) rotate(10deg) translateY(-60px);
+}
+
+.center:hover {
+    transform: scale(1.1) translateY(-60px);
+}
+.left:hover {
+    transform: scale(1.1) rotate(-10deg) translateY(-60px);
+}
+
+.card .description {
+    transform: translateY(350px);
+    background-color: rgba(255,255,255,0.8);
+    padding: 20px;
+    transition: 0.5s;
+    text-align: center;
+    width: 100%;
+}
+
+.cards .card:hover .description {
+    transform: translateY(-120px);
 }
