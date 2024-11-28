@@ -1,0 +1,224 @@
+@font-face {
+    font-family: "Dancing Script";
+    src: url("../fonts/DancingScript-VariableFont_wght.ttf");
+}
+
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 50px 90vh 100px;
+    grid-template-areas: "side navbar"
+                        ". contact"
+                        "footer footer";
+}
+.navbar {
+    grid-area: side;
+    justify-self: center;
+    margin-left: 0;
+}
+
+.burger-navbar {
+    grid-area: navbar;
+}
+
+
+.avatar{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.avatar img {
+    width: 100%;
+    height: auto;
+}
+
+.main-contact {
+    grid-area: contact;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 10% 90%;
+    grid-area: "title title"
+                " form search"; */
+}
+
+.main-contact h1 {
+    font-family: Dancing Script;
+    grid-area: title ;
+}
+
+/**************** Form **********************/
+
+.contact-form {
+    grid-area: form;
+    background-color: #19526A;
+    border-radius: 30px 20px;
+    width: 70%;
+    padding: 20px;
+    /* display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 15% 15% 50% 20%;
+    grid-area: "label1 input"
+                "label2 input"
+                "label3 textarea"
+                "button img"; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.form-group {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    grid-area: label;
+    color: #f7f7f5;
+    font-family: Dancing Script;
+}
+
+.form-group input,textarea {
+    grid-area: input;
+    padding: 2px;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: rgb(247, 247, 245, 0.5);
+}
+
+.send button {
+    grid-area: button;
+    width: 50px;
+    font-family: Dancing Script;
+    margin: 20px;
+    justify-self: flex-start;
+    border-radius: 20px;
+
+}
+.send div {
+    grid-area: img;
+    width: 50%;
+    height: 20%;
+    justify-self: flex-end;
+}
+
+.send div img {
+    width: 100%;
+    height: 100%;
+    justify-self:flex-end;
+}
+
+.send {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+/*************** Search Internship ***********************/
+.search {
+    grid-area: search;
+    display: flex;
+}
+
+.search p {
+    background-color: rgb(217, 217, 217,0.5);
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    height: fit-content;
+}
+
+.search div {
+    position: fixed;
+}
+.search img {
+    position: absolute;
+}
+
+
+/* Pirate */
+
+.picture-moov img {
+    position:relative;
+    animation-name: flo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    bottom: 80px;
+    left:20px;
+}
+
+@keyframes flo {
+    50%{
+        transform: translateY(30px);
+    }
+}
+
+
+/* Bras du pirate */
+
+.image-container{
+    width:300px;
+    height: auto;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    height:auto;
+    clip-path: polygon(
+    0% 0%, 100% 0%, 100% 100%, 0% 100%, /* Tout le rectangle de l'image */
+    0% 45%, 25% 45%, 25% 10%, 40% 10%, 45% 0%, 0% 0%  /* Trou correspondant à la découpe originale */
+);
+}
+
+.animated-part {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    /* Délimiter la zone qui sera animée */
+        /* clip-path:circle(100px at 60px 105px); */
+    clip-path: polygon(0% 0%, 45% 0%, 45% 10%, 28% 10%, 25% 45%, 0% 45% );
+        /* animation: move 3s infinite alternate; */
+    animation: swing 2s infinite ease-in-out;
+}
+/* Animation */
+@keyframes swing {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+footer{
+    grid-area: footer;
+    background-color: #d9d9d9;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .icons a {
+    margin: 5px;
+}
