@@ -44,6 +44,7 @@ body {
 }
 
 .intro {
+    margin-top: 20px;
     grid-area: intro;
     font-size: 14px;
     text-align: center;
@@ -102,15 +103,21 @@ h1 {
     transform: scale(1.1) rotate(-10deg) translateY(-60px);
 }
 
-.card .description {
+.description {
     transform: translateY(350px);
     background-color: rgba(255,255,255,0.8);
-    padding: 20px;
     transition: 0.5s;
-    text-align: center;
     width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .cards .card:hover .description {
     transform: translateY(-120px);
 }
+
+
+
