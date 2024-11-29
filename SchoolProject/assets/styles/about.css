@@ -19,7 +19,7 @@ body {
 }
 .navbar {
     grid-area: side;
-    justify-self: center;
+    /* justify-self: center; */
 }
 
 .burger-navbar {
@@ -27,7 +27,7 @@ body {
 }
 
 main {
-    /* grid-area: intro; */
+    grid-area: intro;
     display: flex;
     flex-direction: column;
     justify-content: center;
