@@ -74,8 +74,8 @@ main {
 .scratchpad {
     width: 200px;
     height: 200px;
-    /* border: solid 10px #FFFFFF; */
-    /* margin:0 auto; */
+    border: solid 10px #FFFFFF;
+    margin:5px;
 }
 
 

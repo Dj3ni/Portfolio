@@ -24,7 +24,6 @@ body {
     grid-area: navbar;
 }
 
-
 .avatar{
     width: 100px;
     height: auto;
@@ -141,44 +140,17 @@ body {
     height: fit-content;
 }
 
-.search div {
-    position: fixed;
-}
-.search img {
-    position: absolute;
-}
-
-
-/* Pirate */
-
-.picture-moov img {
-    position:relative;
-    animation-name: flo;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    bottom: 80px;
-    left:20px;
-}
-
-@keyframes flo {
-    50%{
-        transform: translateY(30px);
-    }
-}
-
 
 /* Bras du pirate */
-
 .image-container{
     width:300px;
-    height: auto;
-    /* overflow: hidden; */
+    height: 409px;
     position: relative;
 }
 
 .image {
     width: 100%;
-    height:auto;
+    height:100%;
     clip-path: polygon(
     0% 0%, 100% 0%, 100% 100%, 0% 100%, /* Tout le rectangle de l'image */
     0% 45%, 25% 45%, 25% 10%, 40% 10%, 45% 0%, 0% 0%  /* Trou correspondant à la découpe originale */
@@ -191,10 +163,7 @@ body {
     left:0;
     width: 100%;
     height: 100%;
-    /* Délimiter la zone qui sera animée */
-        /* clip-path:circle(100px at 60px 105px); */
     clip-path: polygon(0% 0%, 45% 0%, 45% 10%, 28% 10%, 25% 45%, 0% 45% );
-        /* animation: move 3s infinite alternate; */
     animation: swing 2s infinite ease-in-out;
 }
 /* Animation */
@@ -204,6 +173,8 @@ body {
     100% { transform: rotate(0deg); }
 }
 
+
+/******************** Footer *****************/
 footer{
     grid-area: footer;
     background-color: #d9d9d9;
@@ -221,4 +192,9 @@ footer .icons {
 
 footer .icons a {
     margin: 5px;
+}
+
+.name {
+    font-family: Dancing Script;
+    font-weight: bold;
 }
