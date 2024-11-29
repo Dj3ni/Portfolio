@@ -132,13 +132,13 @@ body {
     display: flex;
 }
 
-.search p {
+/* .search p {
     background-color: rgb(217, 217, 217,0.5);
     padding: 15px;
     border-radius: 20px;
     text-align: center;
     height: fit-content;
-}
+} */
 
 
 /* Bras du pirate */
@@ -146,6 +146,7 @@ body {
     width:300px;
     height: 409px;
     position: relative;
+    filter: drop-shadow(0 0 0.75rem black);
 }
 
 .image {
@@ -173,6 +174,31 @@ body {
     100% { transform: rotate(0deg); }
 }
 
+/************ Speech bubble ****************/
+.speech-bubble {
+    box-sizing: border-box;
+    background-color: rgb(217, 217, 217,0.5);
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    height: fit-content;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+/* Triangle */
+.speech-bubble::after {
+    position: absolute;
+    content: '';
+    top: 30px;
+    right: -10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 10px ; /* triangle*/
+    border-color: transparent transparent transparent rgb(217, 217, 217,0.5);
+    
+}
 
 /******************** Footer *****************/
 footer{
