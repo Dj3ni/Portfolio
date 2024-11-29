@@ -9,15 +9,14 @@ body {
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 10% 90%;
-    grid-template-rows: 50px 90vh 100px;
+    grid-template-rows: 50px 10vh 75vh 100px;
     grid-template-areas: "side navbar"
+                        "side contact"
                         ". contact"
                         "footer footer";
 }
 .navbar {
     grid-area: side;
-    justify-self: center;
-    margin-left: 0;
 }
 
 .burger-navbar {
@@ -210,7 +209,7 @@ footer{
     justify-content: space-around;
 }
 
-footer .icons {
+footer .icons-footer {
     display: flex;
     align-items: center;
     justify-content: space-around;

@@ -21,7 +21,6 @@ body {
 
 .navbar {
     grid-area: side;
-    justify-self: center;
 }
 
 .burger-navbar {
@@ -38,16 +37,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.snake {
-    grid-area: snake;
-    /* display: grid;
-    grid-template-columns: 20% 16% 16% 16% 16% 16%;
-    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
-    grid-template-areas:    "head head head head head head"
-                            "frontend front1 front2 front3"
-    ; */
 }
 
 svg{
@@ -69,9 +58,9 @@ fill-opacity:1;
 
 /* test flex */
 .snake{
+    grid-area: snake;
     width: calc(68px * 5);
-    margin: 15px auto 15px auto;
-    
+    margin: 15px auto 15px auto;    
 }
 
 .head {

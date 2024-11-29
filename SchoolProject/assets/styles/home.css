@@ -20,8 +20,6 @@ body {
 
 .navbar {
     grid-area: side;
-    justify-self: center;
-    margin-left: 0;
 }
 
 .burger-navbar {
