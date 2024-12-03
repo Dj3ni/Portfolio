@@ -38,10 +38,15 @@ body {
     justify-content: center;
     align-items: center;
 }
+.snake{
+    grid-area: snake;
+    width: calc(68px * 5);
+    margin: 15px auto 15px auto;    
+}
 
 svg{
-    /* width:20%; */
-    /* margin:0 auto; */
+    /* width:20%;
+    margin:0 auto; */
     cursor: pointer;
 }
 .hex{
@@ -57,11 +62,7 @@ fill-opacity:1;
 }
 
 /* test flex */
-.snake{
-    grid-area: snake;
-    width: calc(68px * 5);
-    margin: 15px auto 15px auto;    
-}
+
 
 .head {
     height:100px;
@@ -102,10 +103,9 @@ fill-opacity:1;
     justify-content: flex-end;
 }
 
-.icon{
+.snake .icon{
     width: 64px;
     height: 64px;
     margin: 0;
     block-size: border-box;
-    
 }
