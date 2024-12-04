@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/SchoolProject/assets/styles/nav.css">
     <link rel="stylesheet" href="/SchoolProject/assets/styles/portfolio.css">
-
+    <script src="/SchoolProject/assets/scripts/filters.js" defer></script>
     <title>Portfolio</title>
 </head>
 <body>
@@ -56,15 +56,21 @@
     <h1>Portfolio</h1>
     <div class="portfolio">
         <div class="filters">
-            <a href="">Php</a>
-            <a href="">C#</a>
-            <a href="">HTML-CSS</a>
-            <a href=""></a>
+            <button data-filter="all">All</button>
+            <button data-filter="php">Php</button>
+            <button data-filter="cSharp">C#</button>
+            <button data-filter="html">HTML-CSS</button>
         </div>
 
         <div class="projects">
-            <div class="project php">
+            <div class="project" data-category = "php">
                 Projet php 
+            </div>
+            <div class="project" data-category="hackaton,php,react">
+                Hackaton
+            </div>
+            <div class="project" data-category="asp,cSharp,dotnet">
+                ASP
             </div>
         </div>
 
