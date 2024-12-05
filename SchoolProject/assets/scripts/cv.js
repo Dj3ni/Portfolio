@@ -1,7 +1,7 @@
 const CV_BUTTON = document.getElementById("cv");
-console.log(CV_BUTTON);
+// console.log(CV_BUTTON);
 const PDF_DIV = document.querySelector(".pdf")
-console.log(PDF_DIV);
+// console.log(PDF_DIV);
 const modal = document.querySelector(".modal");
 const modalContent = document.querySelector(".modal-content");
 

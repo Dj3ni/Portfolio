@@ -19,7 +19,13 @@ body {
 }
 
 .burger-navbar {
+    display: none;
     grid-area: navbar;
+}
+
+.visible {
+    display: block;
+    z-index: 2;
 }
 
 .burger-navbar .navlinks a {
