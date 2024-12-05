@@ -2,10 +2,6 @@
     font-family: "Share Tech Mono";
     src: url("../fonts/Share_Tech_Mono/ShareTechMono-Regular.ttf");
 }
-@font-face {
-    font-family: "Poppins";
-    src: url("../fonts/poppins/Poppins-Light.ttf");
-}
 
 body {
     margin: 0;
@@ -56,6 +52,7 @@ h1 {
     padding: 10px;
     border-radius: 20px;
     border: none;
+    cursor: pointer;
 }
 
 .filters button:hover {
