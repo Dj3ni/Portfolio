@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="/SchoolProject/assets/styles/nav.css">
     <link rel="stylesheet" href="/SchoolProject/assets/styles/portfolio.css">
     <script src="/SchoolProject/assets/scripts/filters.js" defer></script>
+    <script src="/SchoolProject/assets/scripts/cv.js" defer></script>
+
     <title>Portfolio</title>
 </head>
 <body>
@@ -39,9 +41,9 @@
                     <img src="/SchoolProject/assets/icons/linkedin.png" alt="linkedin">
                 </a>
             </div>
-            <div id = "cv" class = "icon">
+            <div class = "icon">
                 <a href="">
-                    <img src="/SchoolProject/assets/icons/cv.png" alt="cv">
+                    <img id = "cv"src="/SchoolProject/assets/icons/cv.png" alt="cv">
                 </a>
             </div>
             <div class = "icon">
@@ -49,10 +51,14 @@
                     <img src="/SchoolProject/assets/icons/email.png" alt="contact">
                 </a>
             </div>
-
         </div>
 
     </nav>
+    <div class="modal">
+        <div class="modal-content">
+            <embed class = "pdf" src="/SchoolProject/assets/CV.pdf" type="application/pdf" width="800" height="500">
+        </div>
+    </div>
     <h1>Portfolio</h1>
     <div class="portfolio">
         <div class="filters">
