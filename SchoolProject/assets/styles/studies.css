@@ -22,8 +22,14 @@ body {
     grid-area: side;
 }
 
-.burger-navbar{
+.burger-navbar {
+    display: none;
     grid-area: navbar;
+}
+
+.visible {
+    display: block;
+    z-index: 2;
 }
 
 .mountains {

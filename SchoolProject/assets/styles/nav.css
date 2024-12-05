@@ -17,21 +17,33 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* position: absolute; */
 }
 
 .navlinks {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
-.navlinks a, .quit span {
+.navlinks a {
     margin: 5px;
     text-decoration: none;
     color: #000;
     font-family: Futura Std Light;
+}
+
+.quit {
+    margin: 5px;
+    color: #000;
+    font-family: Futura Std Light;
+    cursor: pointer;
+    float: right;
+}
+
+.quit span {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 /* side nav */
@@ -75,8 +87,4 @@ nav {
 .visible {
     display: block;
     z-index: 2;
-}
-.quit {
-    cursor: pointer;
-    float: left;
 }
