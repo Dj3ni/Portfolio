@@ -36,8 +36,8 @@ body {
     grid-area: portfolio;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
+    /* justify-content: center; */
+    align-items: center;
 }
 h1 {
     grid-area: portfolio;
@@ -80,8 +80,17 @@ h1 {
     box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 0;
     margin: 5px;
-
 }
+
+/* pdf */
+.pdf {
+    width: 80%;
+    height: 900px;
+    position: fixed;
+    justify-self: center;
+    top: 55px;
+}
+
 
 /* test window */
 
