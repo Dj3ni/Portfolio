@@ -9,7 +9,7 @@ body {
     display: grid;
     grid-template-columns: 10% 90%;
     grid-template-rows: 50px 90%;
-    grid-template-areas: "side navbar"
+    grid-template-areas: ". navbar"
                         "side portfolio";
     font-family: Share Tech Mono;
 }

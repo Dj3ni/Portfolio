@@ -15,12 +15,7 @@ body {
     grid-template-rows: 50px 50% 40%;
     grid-template-areas: "side navbar"
                         "side intro"
-                        ". intro"
-                        ;
-}
-.navbar {
-    grid-area: side;
-    position: sticky;
+                        ". intro";
 }
 
 .burger-navbar {
@@ -32,6 +27,13 @@ body {
     display: block;
     z-index: 2;
 }
+.navbar {
+    grid-area: side;
+    position: sticky;
+}
+
+
+
 main {
     grid-area: intro;
     display: flex;
