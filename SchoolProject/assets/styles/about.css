@@ -18,18 +18,14 @@ body {
                         "side intro";
 }
 
-.burger-navbar {
-    display: none;
-    grid-area: navbar;
-}
-
-.visible {
-    display: block;
-    z-index: 2;
-}
 .navbar {
     grid-area: side;
     position: sticky;
+}
+
+.burger-navbar {
+    display: none;
+    grid-area: navbar;
 }
 
 .pdf {
