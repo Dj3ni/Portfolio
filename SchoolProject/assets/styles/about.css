@@ -32,6 +32,15 @@ body {
     position: sticky;
 }
 
+.pdf {
+    width: 80%;
+    height: 900px;
+    position: fixed;
+    justify-self: center;
+    top: 55px;
+}
+
+
 main {
     grid-area: intro;
     display: flex;

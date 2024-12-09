@@ -2,9 +2,6 @@ const CV_BUTTON = document.getElementById("cv");
 // console.log(CV_BUTTON);
 const PDF_DIV = document.querySelector(".pdf")
 // console.log(PDF_DIV);
-const modal = document.querySelector(".modal");
-const modalContent = document.querySelector(".modal-content");
-
 
 window.onclick = function(event) {
     if (!PDF_DIV.contains(event.target) && event.target !== CV_BUTTON) {

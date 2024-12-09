@@ -37,6 +37,14 @@ body {
     font-family: Share Tech Mono;
 }
 
+.pdf {
+    width: 80%;
+    height: 900px;
+    position: fixed;
+    justify-self: center;
+    top: 55px;
+}
+
 .intro {
     grid-area: intro;
     display: flex;

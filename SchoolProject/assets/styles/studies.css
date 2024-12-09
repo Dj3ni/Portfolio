@@ -32,6 +32,15 @@ body {
     z-index: 2;
 }
 
+.pdf {
+    width: 80%;
+    height: 900px;
+    position: fixed;
+    justify-self: center;
+    top: 55px;
+}
+
+
 .mountains {
     grid-area: mountains;
     /* border:2px solid; */

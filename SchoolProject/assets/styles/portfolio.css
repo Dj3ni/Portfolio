@@ -19,8 +19,8 @@ body {
 }
 
 .burger-navbar {
-    display: none;
     grid-area: navbar;
+    display: none;
 }
 
 .visible {
