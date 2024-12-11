@@ -98,7 +98,7 @@ body {
     height: 0;
     border-style: solid;
     border-width: 10px 0 10px 10px ; 
-    border-color: transparent transparent transparent rgb(217, 217, 217,0.5);
+    border-color: transparent transparent transparent rgba(217, 217, 217,0.5);
 }
 
 .speech-bubble-right::after {
@@ -110,7 +110,7 @@ body {
     height: 0;
     border-style: solid;
     border-width: 10px 10px 10px 0px ; 
-    border-color: transparent rgb(217, 217, 217,0.5) transparent transparent;
+    border-color: transparent rgba(217, 217, 217,0.5) transparent transparent;
 }
 
 /* Animation bubbles */

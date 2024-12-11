@@ -79,23 +79,23 @@ function bubblePirate(){
     setTimeout(()=>{
         // Display bubble
         PirateBubble.classList.add("seen");
-        displayNextPhrase();
+        displayNextPhrase(phrases, BubbleContent, PirateBubble);
     },500)
 }
 
 let currentPhrase = 0;
-function displayNextPhrase() {
-    if (currentPhrase < phrases.length) {
-        BubbleContent.textContent = "";
-        typeText(phrases[currentPhrase], BubbleContent, () => {
+function displayNextPhrase(tabContent, elementP, Bubble) {
+    if (currentPhrase < tabContent.length) {
+        elementP.textContent = "";
+        typeText(tabContent[currentPhrase], elementP, () => {
             currentPhrase++;
-            setTimeout(displayNextPhrase, 1000); 
+            setTimeout(displayNextPhrase(tabContent, elementP, Bubble), 5000); 
         });
     } else {
         setTimeout(() => {
             currentPhrase = 0;
-            PirateBubble.classList.remove("seen");
-            setTimeout(bubblePirate, 500);
+            Bubble.classList.remove("seen");
+            setTimeout(bubblePirate, 3000);
         }, 4000);
     }
 }
@@ -104,10 +104,33 @@ window.addEventListener("load", bubblePirate);
 
 // bubblePirate();
 
+/******************** Landing Page *****************/ 
 
+const EN_Bubble =  document.querySelector('.en-dialog');
+const EN_Content = document.getElementById('en-dialog-content');
+const EN_Texts = [
+    "Hi! I'm Jenny.",
+    "I'm looking for internship as a Web Developer between 5/05/2025 and 27/06/2025."
+];
 
+const FR_Bubble = document.querySelector('.fr-dialog');
+const FR_Content = document.getElementById("fr-dialog-content");
+const FR_Texts = [
+    "Hello! Moi c'est Jenny.",
+    "Je suis actuellement à la recherche d'un stage comme Developpeuse Web du 5/05/2025 au 27/06/2025. Pour consulter mon profil en Français,"
+];
 
-// Test function
+function displayText(){
+    currentPhrase = 0;
+    displayNextPhrase(EN_Texts,EN_Content, EN_Bubble);
+    setTimeout(()=>{
+        currentPhrase = 0;
+        displayNextPhrase(FR_Texts, FR_Content, FR_Bubble);
+    },5000);
+}
+window.addEventListener("load",displayText());
+
+// Test function 
 //  I want to diplay the text progressively
 
 // let i = 0;
