@@ -113,6 +113,16 @@ body {
     border-color: transparent rgb(217, 217, 217,0.5) transparent transparent;
 }
 
+/* Animation bubbles */
+
+.speech-bubble-left, .speech-bubble-right {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.speech-bubble-left.seen, .speech-bubble-right.seen {
+    opacity: 1;
+}
 
 .intro {
     margin-top: 20px;
