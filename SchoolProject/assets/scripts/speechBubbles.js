@@ -3,6 +3,7 @@ const InternshipDates = "From 5th of May 2025 to 28th of June 2025";
 const TypingSpeed = 100;
 
 /***************** Home Page ******************/ 
+const HOME_PAGE = document.getElementById("home");
 
 // Left bubble
 const textLeft = document.getElementById("text-left");
