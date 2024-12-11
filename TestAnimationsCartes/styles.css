@@ -378,7 +378,7 @@ h3{
 }
 
 /* Titres */
-.box-list .box .description h2 {
+.box-list .box .description h1 {
     font-size: 16px;
     font-weight: 500;
 }
