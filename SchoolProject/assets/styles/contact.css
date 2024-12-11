@@ -147,6 +147,7 @@ body {
     display: flex;
 }
 
+
 /* .search p {
     background-color: rgb(217, 217, 217,0.5);
     padding: 15px;
@@ -212,6 +213,15 @@ body {
     border-style: solid;
     border-width: 10px 0 10px 10px ; /* triangle*/
     border-color: transparent transparent transparent rgb(217, 217, 217,0.5);
+}
+/* Animation */
+.speech-bubble {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.speech-bubble.seen {
+    opacity: 1;
 }
 
 /******************** Footer *****************/
