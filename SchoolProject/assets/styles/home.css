@@ -45,7 +45,8 @@ body {
 .avatar {
     width: 200px;
     height: auto;
-    grid-area: intro;
+    /* justify-self: center; */
+    /* grid-area: intro; */
     /* background-color: brown; */
 }
 
@@ -54,6 +55,64 @@ body {
     height: 100%;
     filter: drop-shadow(0 0 0.75rem black);
 }
+
+.search {
+    grid-area: intro;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    position: relative;
+    gap: 10px;
+}
+
+.speech-bubble-left {
+    position: relative;
+    width: 100px;
+    background-color: rgba(217, 217, 217, 0.5);
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.speech-bubble-right {
+    position: relative;
+    width: 100px;
+    background-color: rgba(217, 217, 217, 0.5);
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+/* Triangle */
+
+.speech-bubble-left::after {
+    position: absolute;
+    content: '';
+    top: 30px;
+    right: -10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 10px ; 
+    border-color: transparent transparent transparent rgb(217, 217, 217,0.5);
+}
+
+.speech-bubble-right::after {
+    position: absolute;
+    content: '';
+    top: 30px;
+    left: -10px;
+    width: 0; 
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 10px 0px ; 
+    border-color: transparent rgb(217, 217, 217,0.5) transparent transparent;
+}
+
 
 .intro {
     margin-top: 20px;
