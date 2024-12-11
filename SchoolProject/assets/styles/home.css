@@ -27,11 +27,6 @@ body {
     grid-area: navbar;
 }
 
-.visible {
-    display: block;
-    z-index: 2;
-}
-
 .pdf {
     width: 80%;
     height: 900px;
