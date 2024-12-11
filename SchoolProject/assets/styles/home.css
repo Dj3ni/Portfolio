@@ -62,7 +62,7 @@ body {
 
 .speech-bubble-left {
     position: relative;
-    width: 100px;
+    width: 200px;
     background-color: rgba(217, 217, 217, 0.5);
     padding: 15px;
     border-radius: 20px;
@@ -73,7 +73,7 @@ body {
 
 .speech-bubble-right {
     position: relative;
-    width: 100px;
+    width: 200px;
     background-color: rgba(217, 217, 217, 0.5);
     padding: 15px;
     border-radius: 20px;
