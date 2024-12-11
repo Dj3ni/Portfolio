@@ -5,7 +5,7 @@ const divGames = document.querySelectorAll(".scratchpad");
 console.log(divGames);
 
 const scratchpadConfigs = {
-    dixit: '/SchoolProject/assets/images/games/path2.jpg',
+    dixit: '/SchoolProject/assets/images/games/dixit.jpg',
     akropolis: '/SchoolProject/assets/images/games/akropolis.jpg',
     cantStop: '/SchoolProject/assets/images/games/cantStop.jpg',
     scythe: '/SchoolProject/assets/images/games/scythe.jpg',
